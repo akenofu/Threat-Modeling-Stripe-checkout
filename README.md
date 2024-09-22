@@ -92,15 +92,15 @@ Those are the different threat actors targeting our system:
 ## Compliance
 Every organization has its own compliance needs, contractual obligations, third-party requirements, and more. The list is endless. As a security engineer, you must ensure your threat models address these needs. They are a crucial factor in your security features.
 
-[]
+![PCI Compliance](https://raw.githubusercontent.com/akenofu/Threat-Modeling-Stripe-checkout/refs/heads/main/media/PCI%20Compliance.png)
 
 > **DISCLAIMER**: This is not legal advice. The following information is for educational purposes only and should not be relied upon as legal or compliance advice. Please conduct your own due diligence.
 
 In my case, the company was very small and did not have PCI requirements. However, I did some due diligence and discovered that Stripe requires customers using Stripe Checkout to complete the PCI SAQ A survey and submit it annually. After some back and forth with the Stripe team, I learned that Stripe Checkout customers might be eligible for an auto-generated survey provided by Stripe, which they can upload. So, for now, there are no compliance requirements for me. For now!! Always stay vigilant for changes in requirements and scope.
 
-[]
+![Stripe Chat Part 1 of 2](https://raw.githubusercontent.com/akenofu/Threat-Modeling-Stripe-checkout/refs/heads/main/media/Stripe%20Chat%20Part%201%20of%202.png)
 
-[]
+![Stripe Chat Part 2 of 2](https://raw.githubusercontent.com/akenofu/Threat-Modeling-Stripe-checkout/refs/heads/main/media/Stripe%20Chat%20Part%202%20of%202.png)
 
 ## Scaling our threat models
 Given our threat model, I recommend documenting this in Confluence or your preferred internal documentation tool. If your organization is large enough, consider hosting AWS Threat Composer and importing these models into it. The whole point of decomposing threat models is reusability, so let's ensure these threat models can be utilized by other teams as well!
@@ -112,6 +112,3 @@ That being said, it was very useful in ensuring the semantic and grammatical cor
 
 ## Reusable Markdown version
 If you are looking for a ready-to-use Markdown version, please check out the GitHub repository for this threat model at: https://github.com/akenofu/Threat-Modeling-Stripe-checkout/
-ح[]
-جد
-جد
