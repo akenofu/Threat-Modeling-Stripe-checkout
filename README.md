@@ -32,7 +32,7 @@ For instance, let's consider a support system utilized by internal employees to 
 You cannot threat model what you don't understand. Before my threat modeling session with the developers, I reviewed the official Stripe Checkout Documentation and explored the code snippets. Armed with a basic understanding of the workflow, I set myself up for success. This preparation allowed me to follow up during the meeting, ask informed questions, and engage in meaningful discussions with the team.
 
 Here is an image from the official stripe documentation.
-[]
+![Checkout Workflow](https://raw.githubusercontent.com/akenofu/Threat-Modeling-Stripe-checkout/refs/heads/main/media/Checkout%20Workflow.png)
 
 ## How to build comprhensive threat models?
 Defenders need to think about everything, while an attacker only needs to find one security issue to exploit our systems. So, how do you defend effectively?
