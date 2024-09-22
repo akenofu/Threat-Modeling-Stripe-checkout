@@ -1,5 +1,7 @@
 # Threat Modeling Stripe checkout
 
+![Logo](https://raw.githubusercontent.com/akenofu/Threat-Modeling-Stripe-checkout/refs/heads/main/media/Logo.png)
+
 In this blog post, we will go through a formal STRIDE threat modeling session. There are multiple different approaches to threat modeling: threat modeling as code, software diagramming tools, threat modeling tools, ad-hoc unstructured threat modeling, and formal threat modeling using AWS Threat Grammar and STRIDE. The point is, there is no one-size-fits-all solution.
 
 In this blog post, I will be utilizing AWS Threat Grammar and STRIDE because I believe they are a good fit for threat modeling workflows. However, it's important to understand that the choice of approach should be based on the specific requirements and context of your project.
