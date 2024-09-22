@@ -118,4 +118,4 @@ While GPT-4 could not generate a useful threat model, it often explained STRIDE 
 That being said, it was very useful in ensuring the semantic and grammatical correctness of the threat model. Additionally, it rephrased the threats to comply with AWS threat grammar consistently. With a little bit of guidance, it was quite capable of identifying which mitigations blocked which threats.
 
 ## Reusable Markdown version
-If you are looking for a ready-to-use Markdown version, please check out the GitHub repository for this threat model at: https://github.com/akenofu/Threat-Modeling-Stripe-checkout/
+If you are looking for a ready-to-use Markdown version, please check out the GitHub repository for this threat model at: [Threat-Modeling-Stripe-checkout](https://github.com/akenofu/Threat-Modeling-Stripe-checkout/)
